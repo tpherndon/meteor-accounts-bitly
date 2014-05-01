@@ -7,7 +7,7 @@ Package.on_use(function (api, where) {
   // Export Accounts (etc) to packages using this one.
   api.imply('accounts-base', ['client', 'server']);
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('bitly', ['client', 'server']);
+  api.use('meteor-bitly', ['client', 'server']);
 
   api.add_files('bitly_login_button.css', 'client');
 
